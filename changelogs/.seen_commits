@@ -1247,3 +1247,8 @@ packages_modules_Wifi::fix location mode check in enforceCanAccessScanResultsFor
 packages_modules_Wifi::WifiChipAidlImpl: ignore debug logging requests on MTE Pixel devices
 packages_modules_Wifi::add option of always randomizing MAC addresses
 packages_modules_Wifi::WiFiInfo: Fix crash on google setup wizard
+vendor_gms::gms: Revert Pixel Launcher to mustang CP2A
+build_soong::check_boot_jars: Add camera packages to the whitelist
+build_soong::check_boot_jars: Add xiaomi packages to the whitelist
+system_vold::vold: Fallback to direct restorecon if property set fails
+hardware_interfaces::bluetooth/aidl/default: Fix CPU spin while waiting for HCI
