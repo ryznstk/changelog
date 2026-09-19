@@ -1,7 +1,23 @@
 Notable ROM changes 09/19:
 ==============================
-OmniJaws: Handle offline conversion for metric <-> imperial units
-manifest: Allow excluding prebuilts/rust-toolchain/linux-musl-x86
-config: Reduce surfaceflinger uclamp value
-config: add surfaceflinger boost prop
-extras: ax_blur: scale ratio locked blur
+libfiemap: Return false in MapAllImages if metadata is missing
+Fix StackOverflowError in SatelliteEntitlementController
+[Telephony] Secure contact URI access in Call Forwarding
+Fix privilege escalation in ACTION_CALL intent trampoline
+Fix MMI check bypass via leading whitespace in tel URI.
+TelephonyProvider: Fix SQL injection in projection and sortOrder
+RESTRICT AUTOMERGE Use parameterised queries for photo picker search request queries
+RESTRICT AUTOMERGE Revoke URI permissions on file path updates
+Deny system app status for Private Compute Core UIDs in WifiPermissionsUtil.
+GATT: Fix notifications sent to remote device without security checks
+[RESTRICT AUTOMERGE] Enforce incoming CTKD security requirements
+Replace DeviceAdminInfo.loadDescription() with loadDescriptionSafe()
+Fix confused deputy in Bluetooth settings dashboard
+Sanitize package labels in SettingsApplication
+Fix ArrayIndexOutOfBoundsException in SIMRecords due to invalid EF_CFIS/EF_CFF
+Block in-call MMI execution for USSD requests.
+Fix type confusion in mediatuner service
+Fix race conditions in CryptoHal plugin usage
+Camera: Fix heap OOB read/write in camera mappers
+DeprecatedCamera3StreamSplitter: Add bounds check for slot index
+Fix MediaBuffer size-inflation off-by-32 bug

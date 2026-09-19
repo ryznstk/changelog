@@ -1272,3 +1272,24 @@ manifest::manifest: Allow excluding prebuilts/rust-toolchain/linux-musl-x86
 vendor_evolution::config: Reduce surfaceflinger uclamp value
 vendor_evolution::config: add surfaceflinger boost prop
 vendor_extras::extras: ax_blur: scale ratio locked blur
+system_fs_fs_mgr::libfiemap: Return false in MapAllImages if metadata is missing
+packages_services_Telephony::Fix StackOverflowError in SatelliteEntitlementController
+packages_services_Telephony::[Telephony] Secure contact URI access in Call Forwarding
+packages_services_Telecomm::Fix privilege escalation in ACTION_CALL intent trampoline
+packages_services_Telecomm::Fix MMI check bypass via leading whitespace in tel URI.
+packages_providers_TelephonyProvider::TelephonyProvider: Fix SQL injection in projection and sortOrder
+packages_providers_MediaProvider::RESTRICT AUTOMERGE Use parameterised queries for photo picker search request queries
+packages_providers_MediaProvider::RESTRICT AUTOMERGE Revoke URI permissions on file path updates
+packages_modules_Wifi::Deny system app status for Private Compute Core UIDs in WifiPermissionsUtil.
+packages_modules_Bluetooth::GATT: Fix notifications sent to remote device without security checks
+packages_modules_Bluetooth::[RESTRICT AUTOMERGE] Enforce incoming CTKD security requirements
+packages_apps_Settings::Replace DeviceAdminInfo.loadDescription() with loadDescriptionSafe()
+packages_apps_Settings::Fix confused deputy in Bluetooth settings dashboard
+packages_apps_Settings::Sanitize package labels in SettingsApplication
+frameworks_opt_telephony::Fix ArrayIndexOutOfBoundsException in SIMRecords due to invalid EF_CFIS/EF_CFF
+frameworks_opt_telephony::Block in-call MMI execution for USSD requests.
+frameworks_av::Fix type confusion in mediatuner service
+frameworks_av::Fix race conditions in CryptoHal plugin usage
+frameworks_av::Camera: Fix heap OOB read/write in camera mappers
+frameworks_av::DeprecatedCamera3StreamSplitter: Add bounds check for slot index
+frameworks_av::Fix MediaBuffer size-inflation off-by-32 bug
