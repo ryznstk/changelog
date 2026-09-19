@@ -1267,3 +1267,8 @@ frameworks_native::renderengine: kawase2: cache scratch blur surfaces across fra
 art::[DO NOT MERGE] "method_verifier: Disable some verification"
 vendor_pixel-style::GoogleSettingsOverlay: Suppress injected Backup & Restore dashboard tile
 vendor_gms::gms: Update from mustang CP3A.260905.009
+packages_services_OmniJaws::OmniJaws: Handle offline conversion for metric <-> imperial units
+manifest::manifest: Allow excluding prebuilts/rust-toolchain/linux-musl-x86
+vendor_evolution::config: Reduce surfaceflinger uclamp value
+vendor_evolution::config: add surfaceflinger boost prop
+vendor_extras::extras: ax_blur: scale ratio locked blur
