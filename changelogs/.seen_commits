@@ -1293,3 +1293,7 @@ frameworks_av::Fix race conditions in CryptoHal plugin usage
 frameworks_av::Camera: Fix heap OOB read/write in camera mappers
 frameworks_av::DeprecatedCamera3StreamSplitter: Add bounds check for slot index
 frameworks_av::Fix MediaBuffer size-inflation off-by-32 bug
+packages_apps_Settings::Settings: Skip no-op satellite tile state writes
+manifest::manifest: Initialize for Evolution X 12.2
+manifest::Revert "Revert "Track our packages/modules/Telephony""
+frameworks_opt_telephony::telephony: Gate satellite evaluation on device satellite support
