@@ -1302,3 +1302,17 @@ packages_apps_Evolver::Evolver: TrickyStore: keybox: fetch attestation roots and
 packages_apps_Evolver::Evolver: Prioritize and pre-select 'a' series devices in PIF picker
 vendor_gms::gms: Drop RecorderPrebuilt
 bionic::custom_rom_hide: Mirror staged PIF product props
+packages_apps_Evolver::New Crowdin updates (#596)
+packages_apps_Evolver::Evolver: Revert font picker selection when the overlay fails
+packages_apps_Evolver::Evolver: add complete Arabic localization
+packages_apps_Evolver::Evolver: harden lifecycle and I/O handling, fix RTL layout attrs
+packages_apps_Evolver::Evolve: Update secure QS tile string
+packages_apps_Evolver::Evolver: TrickyStoreAppSettings: Read default targets from framework
+packages_apps_Evolver::Evolver: Spoofing: Add reset, live attestation roots, a-series pick
+build::releasetools: clear stale per-user RRO state on OTA update
+build::build: skip check-selinux-treble-labeling in droidcore
+build::core: fix broken bootloader on A/B devices which wants buildvariant info in the cmdline of bootimage.
+build::Allow prebuild APK's in Vendor
+build::core: dexpreopt: Reset compat library lists for non-app modules
+build::Revert "Revert^2 "Turn on SELinux Treble labeling tests""
+bionic::bionic: Keep dynamic property overrides out of loader ELF TLS
