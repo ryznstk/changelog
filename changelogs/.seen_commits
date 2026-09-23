@@ -1316,3 +1316,6 @@ build::Allow prebuild APK's in Vendor
 build::core: dexpreopt: Reset compat library lists for non-app modules
 build::Revert "Revert^2 "Turn on SELinux Treble labeling tests""
 bionic::bionic: Keep dynamic property overrides out of loader ELF TLS
+packages_apps_Evolver::Evolver: Add option to disable wallpaper zoom [2/2]
+packages_apps_Evolver::Evolver: Update secure QS tile string
+external_bouncycastle::bouncycastle: Add EC/ECDSA provider to get our keybox spoofing working
