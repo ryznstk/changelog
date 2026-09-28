@@ -1,10 +1,4 @@
 Notable ROM changes 09/28:
 ==============================
-Phone: Strip *#*# prefix and #*#* suffix from dialer special codes
-lineage: res: Map all apps (ALL_APPS) key
-lineage: res: Add missing mapping for Prime Video
-config: Switch to SettingsGoogle/SystemUIGoogle for GMS builds
-extras: sdk: Add PrimarySwitchPreference
-extras: sdk: Add EditableSliderPreference
-gms: Build more packages with gms_pico
-Settings: Allow configuring haptics for wake gestures [2/2]
+config: Build Gallery2 until Glimpse can edit images
+Fork frameworks/opt/car/services

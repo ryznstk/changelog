@@ -1372,3 +1372,5 @@ vendor_extras::extras: sdk: Add PrimarySwitchPreference
 vendor_extras::extras: sdk: Add EditableSliderPreference
 vendor_gms::gms: Build more packages with gms_pico
 packages_apps_Settings::Settings: Allow configuring haptics for wake gestures [2/2]
+vendor_evolution::config: Build Gallery2 until Glimpse can edit images
+manifest::Fork frameworks/opt/car/services
