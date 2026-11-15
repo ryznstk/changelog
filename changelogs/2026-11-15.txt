@@ -1,0 +1,7 @@
+Notable ROM changes 11/15:
+==============================
+manifest: Track hardware/qcom-caf/sm8850/audio/mcs
+lineage-sdk: Enforce live display permission for setPictureAdjustment
+recovery: Only mark touch as calibrated when valid bounds are read
+recovery_ui: Count item spacing when fitting menu items
+pixel-style: Disable satellite SOS in Setup Wizard
