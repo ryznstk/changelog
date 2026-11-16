@@ -1,0 +1,9 @@
+Notable ROM changes 11/16:
+==============================
+Evolver: Move "Browse All Clocks" to strings
+Evolver: Fix custom gradient preview in clock chip picker
+Evolver: Fix clock chip gradient angle summary
+Evolver: Add support custom color for clock chip [2/2]
+Evolver: Add click sound and ripple for compose switches in spoofing UI
+extras: sdk: compose: Add AxAlertDialog with shape-aware blur
+extras: Include google-sans-flex font config
