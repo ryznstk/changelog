@@ -1801,3 +1801,10 @@ packages_apps_Evolver::Evolver: Add support custom color for clock chip [2/2]
 packages_apps_Evolver::Evolver: Add click sound and ripple for compose switches in spoofing UI
 vendor_extras::extras: sdk: compose: Add AxAlertDialog with shape-aware blur
 vendor_extras::extras: Include google-sans-flex font config
+bionic::custom_rom_hide: Harden post-syscall pathname spoofing against concurrent unmap
+bionic::custom_rom_hide: Avoid dereferencing caller pathnames in custom ROM hide filters
+packages_apps_Updater::Updater: Move update_engine perf mode IPC off the main thread
+vendor_extras::extras: Update Gramophone to 1.1.2
+device_evolution_sepolicy::atv: Keep Netflix in the ignorance
+vendor_gms::gms: Bring back AmbientStreaming
+frameworks_libs_systemui::iconloaderlib: Support for bitmap drawable icons
