@@ -1823,3 +1823,5 @@ bootable_recovery::minui: Stop compositing directly into the framebuffer
 packages_apps_LineageParts::LineageParts: Only accept NFC profile switches from the NFC stack
 lineage-sdk::lineage-sdk: Complete missing Arabic translations
 bionic::custom_rom_hide: Drop whole smaps blocks for blocked ROM mappings
+packages_apps_LineageParts::DisplayRotation: Honor config_allowAllRotations
+device_evolution_sepolicy::common: Label ro.bootanim.set_orientation_logical_0
