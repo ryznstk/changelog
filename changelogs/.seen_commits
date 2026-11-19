@@ -1825,3 +1825,5 @@ lineage-sdk::lineage-sdk: Complete missing Arabic translations
 bionic::custom_rom_hide: Drop whole smaps blocks for blocked ROM mappings
 packages_apps_LineageParts::DisplayRotation: Honor config_allowAllRotations
 device_evolution_sepolicy::common: Label ro.bootanim.set_orientation_logical_0
+frameworks_native::installd: Add call to remove replaced emoji fonts
+vendor_pixel-style::pixel-style: Give Pixelframework-res a higher priority
