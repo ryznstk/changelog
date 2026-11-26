@@ -1972,3 +1972,4 @@ packages_apps_Evolver::Revert "Evolver: allow disabling ripple effect on unlock 
 packages_apps_Evolver::Evolver: TrickyStore: Add an auto-add switch for new apps
 vendor_gms-mosey::Revert "gms-mosey: Lock ExternalSharingService component [1/2]"
 packages_apps_Settings::Settings: Guard volume sliders against an empty range
+hardware_lineage_compat::libcomparetf2: Add the remaining long double comparisons
