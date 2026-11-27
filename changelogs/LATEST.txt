@@ -1,3 +1,5 @@
-Notable ROM changes 11/26:
+Notable ROM changes 11/27:
 ==============================
-libcomparetf2: Add the remaining long double comparisons
+SystemUIGoogle: Keep Now Playing above keyguard indications
+themes: Add the online boot animation catalog
+codec2: vndk: Allow a process to force HIDL bufferpool block pools
